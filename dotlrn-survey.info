@@ -7,13 +7,13 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
 
-    <version name="2.1.0a" url="http://openacs.org/repository/download/apm/dotlrn-survey-2.1.0a.apm">
+    <version name="2.1.0a2" url="http://openacs.org/repository/download/apm/dotlrn-survey-2.1.0a2.apm">
         <owner url="mailto:dave@thedesignexperience.org">dave bauer</owner>
         <summary>dotLRN applet for Survey package</summary>
         <description format="text/html">dotLRN applet for Survey package</description>
         <release-date>2004-03-10</release-date>
 
-        <provides url="dotlrn-survey" version="2.1.0a"/>
+        <provides url="dotlrn-survey" version="2.1.0a2"/>
         <requires url="dotlrn" version="1.0"/>
         <requires url="survey-portlet" version="0.1d"/>
 
