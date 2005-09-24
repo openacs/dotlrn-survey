@@ -53,7 +53,7 @@ namespace eval dotlrn_survey {
     } {
         return the pretty name of this applet.
     } {
-        return Survey
+        return "#survey.Survey#"
     }
 
     ad_proc -public add_applet {
