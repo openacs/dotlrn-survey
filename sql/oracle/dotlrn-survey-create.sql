@@ -173,7 +173,7 @@ as
 
        for one_survey in (select s.*, o.creation_user
 		          from surveys s, acs_objects o
-			  where package_id=old_package_id
+			  where s.package_id=old_package_id
 			  and o.object_id=s.survey_id)
        loop
            v_survey_id := survey.new(
