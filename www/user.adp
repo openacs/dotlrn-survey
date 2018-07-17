@@ -27,7 +27,7 @@
       <th align="center" width="20%">Posted</th>
     </tr>
 
-<if @surveys:rowcount@ gt 0>
+<if @surveys:rowcount;literal@ gt 0>
 <multiple name="surveys">
 
   <if @surveys.rownum@ odd>
